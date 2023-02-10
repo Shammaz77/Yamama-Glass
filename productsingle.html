@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/common.css">
+		<link rel="stylesheet" href="./css/yamama.css">
+		<!-- icon  -->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+		<!-- carousel  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+		<!-- carousel end   -->
+		<!-- swipper start  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+		<!-- swipper end  -->
+</head>
+<body>
+  <!-- header section  -->
+	<header>
+		<div class="container-main">
+			<nav class="navbar">
+				<a href="index.html" class="navbar-logo"><img src="./images/yamama-logo.png" alt="logo-yamama"></a>
+				<ul class="navbar-links">
+					<li class="nav-item">
+						<a class="nav-link actives" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link " href="about.html">About us</a>
+						</li>
+					<div class="d-inline d-md-block d-lg-none" onclick="toggleCartt()" ><i class="ri-menu-line"></i></div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- sidebar -->
+	<div class="sidebar">
+    <div class="navbar-sidebar">
+      <ul>
+        <li><a class="" href="index.html">Home</a></li>
+        <li><a class="actives" href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
+  </div>
+	<!-- sidebar section end  -->
+	<div class ="card-wrapper product-single container-main mt-4">
+		<div class = "card" style="border: none !important;">
+			<!-- card left -->
+			<div class = "product-imgs">
+				<div class = "img-display">
+					<div class = "img-showcase">
+						<img  src = "./images/single-product.jpg" alt = "product-slider-image">
+						<img src = "./images/slide-two.jpg" alt ="product-slider-image">
+						<img src = "./images/slide-three.jpg" alt ="product-slider-image">
+						<img  src = "./images/slide-four.jpg" alt = "product-slider-image">
+						<img  src = "./images/slide-four.jpg" alt = "product-slider-image">
+					</div>
+				</div>
+				<div class = "img-select">
+					<div class = "img-item">
+						<a href = "#" data-id = "1">
+							<img style="height: 100%;" src = "./images/single-product.jpg" alt = "product-slider-image">
+						</a>
+					</div>
+					<div class = "img-item">
+						<a href = "#" data-id = "2">
+							<img style="height: 100%;" src = "./images/slide-two.jpg" alt = "product-slider-image">
+						</a>
+					</div>
+					<div class = "img-item">
+						<a href = "#" data-id = "3">
+							<img style="height: 100%;" src = "./images/slide-three.jpg" alt ="product-slider-image">
+						</a>
+					</div>
+					<div class = "img-item">
+						<a href = "#" data-id = "4">
+							<img style="height: 100%;" src = "./images/slide-four.jpg" alt = "product-slider-image">
+						</a>
+					</div>
+					<div class = "img-item">
+						<a href = "#" data-id = "5">
+							<img style="height: 100%;" src = "./images/slide-four.jpg" alt = "product-slider-image">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="product-deatils-single">
+				<h3 class="product-name">Rayban SunGlass Form Protection RG45277</h3>
+				<h4 class="product-code mb-2">SKU: GVFM0176-16</h4>
+				<div class="product-price-box mb-2">
+					<h4 class="product-price yamama-secondary-color mb-0 mr-4">QR 23.90</h4>
+					<h4 class="product-price-discount mb-0">QR 26.90</h4>
+				</div>
+				<div class="product-single-buttons">
+					<h5 class="product-offer-btns mr-4">$ 5 Off First Order</h5>
+					<h5 class="product-offer-btns">$ 5 Off First Order</h5>
+				</div>
+				<div class="same-color-products mt-3">
+					<div class="color-product-name">
+						<h4 class="mb-0 mr-4 slider-color-select-product-name">Rayban SunGlass</h4>
+						<h4 class="mb-0 differnt-colors">Different Colors</h4>
+					</div>
+					<div class="swiper mySwiper product-single-slider mt-4">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+							<div class="swiper-slide"><img class="slider-product-single" src="images/01_489_3 1.png" alt="slider-img" /></div>
+						</div>
+					</div>
+				</div>
+				<div class="buttons-navigate-p-single mt-4">
+					<a href="#" class="btn yamama-primary-color btn-p-single-navigate ">TRY ON</a>
+					<a href="#" class="btn yamama-primary-color btn-p-single-navigate" >FRAME SIZE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-main product-details-faq mt-5">
+		<div class="row">
+			<!-- product dropdown details start  -->
+			<div class="col-lg-6">
+				<div class="faq active">
+					<h3 class="faq-title">Details</h3>
+					<table class="faq-text">
+						<tr>
+							<th></th>
+							<th></th>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Frame</td>
+							<td class="mb-2 product-sub-text">Square</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">SKU</td>
+							<td class="mb-2 product-sub-text">GWM531295-01</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Rim</td>
+							<td class="mb-2 product-sub-text">Full Rim</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Weight</td>
+							<td class="mb-2 product-sub-text">26.9g</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">RX</td>
+							<td class="mb-2 product-sub-text">Range</td>
+						</tr>
+					</table>
+					<button class="faq-toggle">
+						<i class="ri-arrow-down-s-line"></i>
+						<i class="ri-arrow-up-s-line"></i> 
+					</button>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="faq active">
+					<h3 class="faq-title">Size Guide</h3>
+					<table class="faq-text">
+						<tr>
+							<th></th>
+							<th></th>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Size</td>
+							<td class="mb-2 product-sub-text">Light </td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Glass </td>
+							<td class="mb-2 product-sub-text">54.02 ml</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Rim</td>
+							<td class="mb-2 product-sub-text">Full Rim</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Weight</td>
+							<td class="mb-2 product-sub-text">26.9g</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">RX</td>
+							<td class="mb-2 product-sub-text">Range</td>
+						</tr>
+					</table>
+					<button class="faq-toggle">
+						<i class="ri-arrow-down-s-line"></i>
+						<i class="ri-arrow-up-s-line"></i> 
+					</button>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="faq active">
+					<h3 class="faq-title">Package</h3>
+					<table class="faq-text">
+						<tr>
+							<th></th>
+							<th></th>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Discount</td>
+							<td class="mb-2 product-sub-text">12%</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Rate</td>
+							<td class="mb-2 product-sub-text">$ 9299</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Discount</td>
+							<td class="mb-2 product-sub-text">$ 8599</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">Weight</td>
+							<td class="mb-2 product-sub-text">26.9g</td>
+						</tr>
+						<tr>
+							<td class="mb-2 product-sub-text">RX</td>
+							<td class="mb-2 product-sub-text">Range</td>
+						</tr>
+					</table>
+					<button class="faq-toggle">
+						<i class="ri-arrow-down-s-line"></i>
+						<i class="ri-arrow-up-s-line"></i> 
+					</button>
+				</div>
+			</div>
+			<!-- product dropdown details end  -->
+			<!-- customer review section start  -->
+			<div class="col-lg-12 mt-3">
+				<div class="inner-col-product-single">
+					<h3 class="text-center mb-2 mt-2">Customer Reviews (20)</h3>
+					<div class="reviews-product">
+						<h4 class="customer-name">Nithin <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""></h4>
+						<p>lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					</div>
+					<hr>
+					<div class="reviews-product">
+						<h4 class="customer-name">Nithin <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""></h4>
+						<p>lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					</div>
+					<hr>
+					<div class="reviews-product">
+						<h4 class="customer-name">Nithin <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""> <img class="review-star" src="./images/Vector (3).png" alt=""></h4>
+						<p>lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					</div>
+					<a href="#" class="read-more-text">Read all >></a>
+				</div>
+			</div>
+			<!-- customer review section end  -->
+		</div>
+	</div>
+	<!-- Related products -->
+	<div class="container-main deals-of-day mt-4">
+		<h3 class="mb-2 main-head-sections deals-day-main-head mt-2">Related product</h3>
+		<!-- <p class="text-center deals-day-sub-head">Quality assured products at unbeatable prices, If you want all this, you better shop today's sale fast.</p> -->
+		<div class="row mt-4">
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="./productsingle.html">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="./productsingle.html">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="./productsingle.html">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="./productsingle.html">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="#">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+				<div class="deal-day-product">
+					<a href="#">
+						<img src="./images/01_489_3 1.png" alt="category-product">
+						<h4 class="text-center deal-day-product-name">Raybon G3454</h4>
+						<div class="product-rate mt-2">
+							<h4 class="product-rate-text mb-0 yamama-primary-color">QR 23.90</h4>
+							<h4 class="descount-product mb-0">QR 23.90</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-12 mb-2 mt-2">
+				<div class="inner-col-buttons-frame">
+					<a href="#" class="btn frame-btn-p-single left-frame-btn yamama-primary-bg text-white mb-0">FRAME ONLY</a>
+					<a href="#" class="btn frame-btn-p-single right-frame-btn yamama-primary-bg text-white mb-0">ADD LENS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Related Products end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- footer  -->
+	<footer class="text-lg-start mt-3">
+    <div class="container-main  footer-inner-div text-md-start mt-5 mb-4">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 logo-div">
+          <a class="logo-footer" href="./index.html"><img src="./images/yamama-logo.png" alt="logo"></a>
+          <p class="logo-div-p" style="font-size: 14px;">We have over 5000 styles of eyewear, From big brands like RayBan and Oakley to the best in house brands.</p>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-facebook-box-fill"></i>
+          <i class="ri-whatsapp-fill"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6  mx-auto mb-4 information-div">
+          <h3 class="fw-bold">Information</h3>
+          <p><a href="#!" class="text-reset">About us</a></p>
+          <p><a href="#!" class="text-reset">Services</a></p>
+          <p><a href="#!" class="text-reset">Terms and Conditions</a></p>
+          <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 mx-auto mb-4 services-div">
+          <h3 class="fw-bold">Services</h3>
+          <p><a href="#!" class="text-reset">Store Location</a></p>
+          <p><a href="#!" class="text-reset">Frame Size</a></p>
+          <p><a href="#!" class="text-reset">Buying Guide</a></p>
+          <p><a href="#!" class="text-reset">About Us</a></p>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-md-6 mx-auto mb-md-0 mb-4 icon-contact">
+          <h3 class="fw-bold">Contact us</h3>
+          <p><i class="ri-mail-open-fill"></i> <a href="mailto:info@yamama.com">info@yamama.com</a></p>
+          <p><i class="ri-global-fill"></i><a href="www.yamama.com">www.yamama.com</a></p>
+          <p><i class="ri-whatsapp-fill"></i><a href="whatsapp:contact=0557424174">+966 1234567899</a></p>
+          <p><i class="ri-phone-fill"></i><a href="tel:+966 0557427344">+966 1236547898</a></p>
+        </div>
+      </div>
+    </div> 
+    <div class="text-center footer-copy">
+      <p>© copyright 2022 Yamama | Designed by 
+        <a class="text-reset fw-bold" href="https://www.erebsindia.com/" target="_blank">ERE Business Solutions</a>
+      </p>
+    </div>
+  </footer>
+	<!-- footer end  -->	
+	<!-- slider brands script  -->
+	<script>
+		const imgs = document.querySelectorAll('.img-select a');
+			const imgBtns = [...imgs];
+			let imgId = 1;
+
+			imgBtns.forEach((imgItem) => {
+					imgItem.addEventListener('click', (event) => {
+							event.preventDefault();
+							imgId = imgItem.dataset.id;
+							slideImage();
+					});
+			});
+
+			function slideImage(){
+					const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+					document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+			}
+
+			window.addEventListener('resize', slideImage);
+	</script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 2,
+			spaceBetween: 30,
+			freeMode: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			}
+		});
+	</script>
+	<!-- toggle script  -->
+	<!-- Initialize Swiper -->
+	<script>
+		const buttons = document.querySelectorAll(".faq-toggle");
+		buttons.forEach((btn) => {
+			btn.addEventListener("click", () => {
+				btn.parentNode.classList.toggle("active");
+			});
+		});
+	</script>
+	<!-- sideber scripts  -->
+	<script>
+		function toggleCartt(){
+  		document.querySelector('.sidebar').classList.toggle('open-cart');
+		}
+	</script>
+	<!-- sideber scripts links  -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
