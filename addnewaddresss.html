@@ -46,104 +46,55 @@
     </div>
     <div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
   </div>
-	<div class="container-main form-section mt-5">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="inner-col-form">
-					<div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<input style="padding: 0.375rem 0.75rem;" id="name" name="name" type="text" class="form-control" placeholder="name">
+	<div class="container-main add-new-address mt-5 mb-5">
+		<div class="add-address-box">
+			<h3 class="text-center mb-4 add-addres-main-head">Add new address</h3>
+			<div class="row">
+				<form style="width: 100%;">
+					<div class="row">
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="First Name">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="Last Name">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="text" class="form-control" placeholder="Country/Region">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="text" class="form-control" placeholder="State/Province">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="text" class="form-control" placeholder="City">
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<textarea class="form-control" placeholder="Addresss" id="exampleFormControlTextarea1" rows="3"></textarea>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<input type="email" style="padding: 0.375rem 0.75rem;"  id="email" name="email" class="form-control" placeholder="Email">
-							</div> 
-							<div class="col-lg-12 pb-3">
-								<input type="text" style="padding: 0.375rem 0.75rem;" id="country" name="country"  class="form-control" placeholder="Country">
-							</div> 
-							<div class="col-lg-12 pb-3">
-								<input type="number" class="form-control" id="phone" name="phone"  placeholder="Phone">
-							</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="Building number">
 						</div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<textarea class="form-control" id="message" name="message"  placeholder="Message"  rows="4"></textarea>
-							</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="Zone number">
 						</div>
-						<div id="button" style="background-color: rgb(255, 255, 255);display: table;margin-left: auto;margin-right: auto;color: #000;" class="btn text-center">Submit</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="Street number">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="POBox">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<input type="number" class="form-control" placeholder="Telephone">
+						</div>
+						<div class="col-lg-6 mb-3">
+							<button class="btn yamama-primary-bg text-white save-btn-add-address" type="submit">Save</button>
+						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-	<div class="container-main form-section mt-5">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="inner-col-form">
-					<div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<input style="padding: 0.375rem 0.75rem;" id="name" name="name" type="text" class="form-control" placeholder="name">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<input type="email" style="padding: 0.375rem 0.75rem;"  id="email" name="email" class="form-control" placeholder="Email">
-							</div> 
-							<div class="col-lg-12 pb-3">
-								<input type="text" style="padding: 0.375rem 0.75rem;" id="country" name="country"  class="form-control" placeholder="Country">
-							</div> 
-							<div class="col-lg-12 pb-3">
-								<input type="number" class="form-control" id="phone" name="phone"  placeholder="Phone">
-							</div>
-							<div class="col-lg-12 pb-3">
-								<select class="form-select" aria-label="Default select example" style="width: 100%;padding: 0.375rem 0.75rem;border: 1px solid #ced4da !important;color: #495057;">
-									<option selected>Choose</option>
-									<option value="1">Plastic Mould</option>
-									<option value="2">PVC Mould</option>
-									<option value="3">Rubber Mould</option>
-									<option value="4">Compound Wall</option>
-									<option value="5">Mechinery</option>
-									<option value="6">Chemical</option>
-								</select>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 pb-3">
-								<textarea class="form-control" id="message" name="message"  placeholder="Message"  rows="4"></textarea>
-							</div>
-						</div>
-						<div id="button" style="background-color: rgb(255, 255, 255);color: #000;" class="btn text-center">Submit</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<style>
-		/* Chrome, Safari, Edge, Opera */
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		margin: 0;
-	}
-
-	/* Firefox */
-	input[type=number] {
-		-moz-appearance: textfield;
-	}
-	</style>
 
 
 
@@ -160,7 +111,7 @@
 
 	<!-- footer  -->
 	<footer class="text-lg-start mt-3">
-    <div class="container-main  text-md-start mt-5 mb-4">
+    <div class="container-main  footer-inner-div text-md-start mt-5 mb-4">
       <div class="row">
         <div class="col-xl-3 col-lg-3 col-md-6 logo-div">
           <a class="logo-footer" href="./index.html"><img src="./images/yamama-logo.png" alt="logo"></a>
@@ -234,6 +185,16 @@
 				el: ".swiper-pagination",
 				clickable: true
 			}
+		});
+	</script>
+	<!-- toggle script  -->
+	<!-- Initialize Swiper -->
+	<script>
+		const buttons = document.querySelectorAll(".faq-toggle");
+		buttons.forEach((btn) => {
+			btn.addEventListener("click", () => {
+				btn.parentNode.classList.toggle("active");
+			});
 		});
 	</script>
 	<!-- sideber scripts  -->
