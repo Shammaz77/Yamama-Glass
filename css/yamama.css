@@ -355,10 +355,157 @@ transition: all 0.5s ease;
 	display: table;
 	margin-left: auto;
 }
+/* favourites page  */
+.favourite-page .deal-day-product{
+	box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+	padding: 10px;
+	border-radius: 12px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.favourite-page .deal-day-product a{
+	text-decoration: none;
+	color: #000;
+}
+.favourite-page .deal-day-product .product-rate{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.deal-day-product .remove-btn{
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	border: 1px solid #152756;
+	padding: 2px;
+	font-size: 12px !important;
+	border-radius: 4px;
+}
+/* select lense  code  */
+.select-lense .inner-col-selectlenes{
+	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.select-lense .inner-col-selectlenes .inner-box-select-lense .select-lense-product-image{
+	width: 100px;
+}
+.select-lense .inner-col-selectlenes .inner-box-select-lense .select-lense-index-product-image{
+	width: 60px;
+}
+.inner-box-select-lense{
+	display: flex;
+	align-items: center;
+}
+.inner-col-selectlenes .select-lense-lense-type{
+	color: #8F8F8F;
+	font-weight: 400;
+}
+.inner-col-selectlenes .select-lense-product-price{
+	color: #8F8F8F;
+	font-weight: 400;
+}
+.inner-col-selectlenes-buttons .inner-col-selectlenes-btns{
+	padding: 6px 50px;
+	border-radius: 14px;
+}
+.inner-col-selectlenes-buttons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.inner-col-selectlenes-buttons .inner-col-selectlenes-btns-non-bg{
+	border: 1px solid #152756;
+	border-radius: 14px;
+	padding: 6px 30px;
+}
+/* cart page   */
+.cart-web .inner-col-cart{
+	border: 1px solid #12265C;
+	padding: 15px;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.inner-col-cart .cat-inner-main{
+	display: flex;
+	align-items: center;
+}
+.inner-col-cart .cat-inner-main .cat-inner-main-sub .cart-product-image{
+	width: 120px;
+}
+.cat-inner-main-sub .cart-price{
+	display: flex;
+	align-items: center;
+}
+.cat-inner-main-sub .cart-price .cart-real-price{
 
-
-
-
+}
+.cat-inner-main-sub .cart-price .cart-discout-price{
+	color: gray;
+	text-decoration: line-through;
+}	
+.cat-inner-main-two .table-cart{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cart-web .inner-col-cart .delete-icon{
+	position: absolute;
+	right: 15px;
+	color: #D10000;
+	padding: 0px 5px;
+	border-radius: 5px;
+	border: 1px solid #D10000;
+}
+.light-weight-text {
+	font-weight: 400;
+}
+.add-to-cart-btn{
+	padding: 5px 15px;
+	border-radius: 8px;
+}
+/* blog  */
+.blog-page .inner-col-blog{
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	background: #e9e7e7;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+}
+.blog-page .inner-col-blog .inner-box-blog .blog-image{
+	width: 100px;
+	height: auto;
+}
+.blog-post-time{
+	color: gray;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	font-size: 12px ;
+}
+/* notification  */
+.notification-page .inner-col-notifiation{
+	box-shadow: 0px -1px 7px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.notification-page .notification-image{
+	border-radius: 10px;
+}
+.inner-col-down-notofication{
+	padding: 10px;
+}
+.notification-sub-text{
+	color: #979797;
+	font-weight: 400;
+}
 
 
 
@@ -412,6 +559,15 @@ transition: all 0.5s ease;
 	.deals-of-day .descount-product{
 		font-size: 15px !important;
 	}
+	.favourite-page .deal-day-product-name {
+    font-size: 16px !important;
+	}
+	.favourite-page .product-rate-text {
+    font-size: 15px !important;
+	}
+	.favourite-page .descount-product {
+    font-size: 15px !important;
+	}	
 }
 @media (max-width:1200px){
 	.deals-of-day .deal-day-product-name{
@@ -443,6 +599,18 @@ transition: all 0.5s ease;
 	}
 	.deals-of-day .row{
 		margin-top: 13px !important;
+	}
+	.favourite-page .deal-day-product-name {
+    font-size: 14px !important;
+	}
+	.favourite-page .product-rate-text {
+    font-size: 10px !important;
+	}
+	.favourite-page .descount-product {
+    font-size: 10px !important;
+	}
+	.deal-day-product .remove-btn {
+    font-size: 9px !important;
 	}
 }
 @media (max-width:1100px){
@@ -503,6 +671,10 @@ transition: all 0.5s ease;
 	}
 	.swiper-horizontal {
     margin-top: 14px !important;
+	}
+	.navbar {
+		grid-template-columns: 2fr 5fr;
+    padding: 7px  0 0.6rem 0;
 	}
 }
 @media (max-width:600px) {
@@ -566,6 +738,39 @@ transition: all 0.5s ease;
 	}
 	.add-new-address .add-address-box {
     width: 94% !important;
+	}
+	.blog-heading-main{
+		font-size: 19px !important;
+	}
+	.blog-page{
+		margin-top: 25px !important;
+	}
+	.add-to-cart-btn {
+    font-size: 11px;
+	}
+	.cart-main-head{
+		font-size: 19px !important;
+	}
+	.cart-web{
+		margin-top: 30px !important;
+	}
+	.product-main-head{
+		font-size: 19px !important;
+	}
+	.favourite-main-head{
+		font-size: 19px !important;
+	}
+	.deals-of-day .product-rate-text {
+    font-size: 14px !important;
+	}
+	.deals-of-day .descount-product {
+    font-size: 14px !important;
+	}
+	.notification-main-head{
+		font-size: 19px !important;
+	}
+	.notification-page{
+		margin-top: 30px !important;
 	}
 }
 @media (max-width:450px) {

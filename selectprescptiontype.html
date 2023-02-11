@@ -20,94 +20,103 @@
 </head>
 <body>
   <!-- header section  -->
-  <header>
-	<div class="container-main">
-		<nav class="navbar">
-			<a href="index.html" class="navbar-logo"><img src="./images/logo-main.png" alt="logo-yamama"></a>
-			<ul class="navbar-links">
-				<li class="nav-item">
-					<a class="nav-link actives" href="index.html">Home</a>
-				</li>
-				<li class="nav-item">
-						<a class="nav-link " href="favourite.html">Glasses</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="cart.html">Cart</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="cart.html">Blog</a>
-				</li>
-				<div class="d-inline d-md-block d-lg-none" onclick="toggleCartt()" ><i class="ri-menu-line"></i></div>
-			</ul>
-		</nav>
-	</div>
-</header>
+	<header>
+		<div class="container-main">
+			<nav class="navbar">
+				<a href="index.html" class="navbar-logo"><img src="./images/logo-main.png" alt="logo-yamama"></a>
+				<ul class="navbar-links">
+					<li class="nav-item">
+						<a class="nav-link actives" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link " href="favourite.html">Glasses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="cart.html">Cart</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="cart.html">Blog</a>
+					</li>
+					<div class="d-inline d-md-block d-lg-none" onclick="toggleCartt()" ><i class="ri-menu-line"></i></div>
+				</ul>
+			</nav>
+		</div>
+	</header>
 	<!-- sidebar -->
 	<div class="sidebar">
-    <div class="navbar-sidebar">
-      <ul>
-        <li><a class="actives" href="index.html">Home</a></li>
-        <li><a class="" href="products.html">Products</a></li>
-        <li><a class="" href="favourite.html">Favourite</a></li>
-        <li><a class="" href="blog.html">Blog</a></li>
-        <li><a class="" href="blog.html">Accesories</a></li>
-        <li><a class="" href="notification.html">Notification</a></li>
-        <li><a class="" href="cart.html">Cart</a></li>
-      </ul>
-    </div>
-    <div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
-  </div>
-	<!-- add address  -->
-	<div class="container-main add-new-address mt-5 mb-5">
-		<div class="add-address-box">
-			<h3 class="text-center mb-4 add-addres-main-head">Add new address</h3>
-			<div class="row">
-				<form style="width: 100%;">
-					<div class="row">
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="First Name">
+		<div class="navbar-sidebar">
+		  <ul>
+			<li><a class="actives" href="index.html">Home</a></li>
+			<li><a class="" href="products.html">Products</a></li>
+			<li><a class="" href="favourite.html">Favourite</a></li>
+			<li><a class="" href="blog.html">Blog</a></li>
+			<li><a class="" href="blog.html">Accesories</a></li>
+			<li><a class="" href="notification.html">Notification</a></li>
+			<li><a class="" href="cart.html">Cart</a></li>
+		  </ul>
+		</div>
+		<div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
+	  </div>
+	<!-- select lense  -->
+	<div class="container-main mt-5 select-lense mb-5">
+		<h3 class="text-center">Select a prescription type</h3>
+		<div class="row mt-4">
+			<div class="col-lg-12">
+				<div class="inner-col-selectlenes">
+					<div class="inner-box-select-lense">
+						<div class="inner-box-slelect-items mr-4">
+							<img class="select-lense-product-image" src="./images/single-vision 1.png" alt="product-image">
 						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="Last Name">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="text" class="form-control" placeholder="Country/Region">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="text" class="form-control" placeholder="State/Province">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="text" class="form-control" placeholder="City">
-						</div>
-						<div class="col-lg-6">
-							<div class="form-group">
-								<textarea class="form-control" placeholder="Addresss" id="exampleFormControlTextarea1" rows="3"></textarea>
-							</div>
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="Building number">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="Zone number">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="Street number">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="POBox">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<input type="number" class="form-control" placeholder="Telephone">
-						</div>
-						<div class="col-lg-6 mb-3">
-							<button class="btn yamama-primary-bg text-white save-btn-add-address" type="submit">Save</button>
+						<div class="inner-box-slelect-items">
+							<h3 class="select-lense-product">Standred Coating</h3>
+							<h4 class="select-lense-lense-type">Reduce light reflection</h4>
 						</div>
 					</div>
-				</form>
+					<div class="inner-box-select-lense">
+						<h4 class="select-lense-product-price">QR 23.90</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 mt-4">
+				<div class="inner-col-selectlenes">
+					<div class="inner-box-select-lense">
+						<div class="inner-box-slelect-items mr-4">
+							<img class="select-lense-product-image" src="./images/single-vision 1.png" alt="product-image">
+						</div>
+						<div class="inner-box-slelect-items">
+							<h3 class="select-lense-product">Blue Light stand</h3>
+							<h4 class="select-lense-lense-type">for every use digital device</h4>
+						</div>
+					</div>
+					<div class="inner-box-select-lense">
+						<h4 class="select-lense-product-price">QR 23.90</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 mt-4">
+				<div class="inner-col-selectlenes">
+					<div class="inner-box-select-lense">
+						<div class="inner-box-slelect-items mr-4">
+							<img class="select-lense-product-image" src="./images/single-vision 1.png" alt="product-image">
+						</div>
+						<div class="inner-box-slelect-items">
+							<h3 class="select-lense-product">Ultimate coating</h3>
+							<h4 class="select-lense-lense-type">Anti finger print and whater resitance</h4>
+						</div>
+					</div>
+					<div class="inner-box-select-lense">
+						<h4 class="select-lense-product-price">QR 23.90</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 mt-4">
+				<div class="inner-col-selectlenes-buttons">
+					<a href="#" class="btn inner-col-selectlenes-btns-non-bg yamama-primary-color">TOTEL QR 23.90</a>
+					<a href="selectlenseindex.html" class="btn yamama-primary-bg inner-col-selectlenes-btns text-white">NEXT</a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!-- add address  end-->
 	<!-- footer  -->
 	<footer class="text-lg-start mt-3">
     <div class="container-main  footer-inner-div text-md-start mt-5 mb-4">
@@ -174,19 +183,6 @@
 	</script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-	<!-- Initialize Swiper -->
-	<script>
-		var swiper = new Swiper(".mySwiper", {
-			slidesPerView: 2,
-			spaceBetween: 30,
-			freeMode: true,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true
-			}
-		});
-	</script>
-	<!-- toggle script  -->
 	<!-- Initialize Swiper -->
 	<script>
 		const buttons = document.querySelectorAll(".faq-toggle");

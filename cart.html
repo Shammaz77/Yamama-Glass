@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/common.css">
+		<link rel="stylesheet" href="./css/yamama.css">
+		<!-- icon  -->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+		<!-- carousel  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+		<!-- carousel end   -->
+		<!-- swipper start  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+		<!-- swipper end  -->
+</head>
+<body>
+  <!-- header section  -->
+	<header>
+		<div class="container-main">
+			<nav class="navbar">
+				<a href="index.html" class="navbar-logo"><img src="./images/logo-main.png" alt="logo-yamama"></a>
+				<ul class="navbar-links">
+					<li class="nav-item">
+						<a class="nav-link actives" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link " href="products.html">Glasses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link actives" href="cart.html">Cart</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="blog.html">Blog</a>
+					</li>
+					<div class="d-inline d-md-block d-lg-none" onclick="toggleCartt()" ><i class="ri-menu-line"></i></div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- sidebar -->
+	<div class="sidebar">
+    <div class="navbar-sidebar">
+      <ul>
+        <li><a class="actives" href="index.html">Home</a></li>
+        <li><a class="" href="products.html">Products</a></li>
+        <li><a class="" href="favourite.html">Favourite</a></li>
+        <li><a class="" href="blog.html">Blog</a></li>
+        <li><a class="" href="blog.html">Accesories</a></li>
+        <li><a class="" href="notification.html">Notification</a></li>
+        <li><a class="" href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+    <div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
+  </div>
+	<!-- cart  -->
+	<div class="container-main cart-web mt-5 mb-5">
+		<h2 class="text-center cart-main-head">Cart Items</h2>
+		<div class="row mt-4">
+			<div class="col-lg-4">
+				<div class="inner-col-cart">
+					<i class="ri-delete-bin-5-fill delete-icon"></i>
+					<div class="cat-inner-main">
+						<div class="cat-inner-main-sub mr-4">
+							<img class="cart-product-image" src="./images/01_489_3 1.png" alt="cart-product-image">
+						</div>
+						<div class="cat-inner-main-sub">
+							<h4 class="cart-product-name">Annabelle</h4>
+							<h5 class="mb-0">Color : Blue/Gray</h5>
+							<h5 class="mb-2">RX:Progressive</h5>
+							<div class="cart-price">
+								<h4 class="mb-0 mr-3 cart-real-price yamama-secondary-color ">QR 23.90</h4>
+								<h5 class="mb-0 cart-discout-price ">QR 23.90</h5>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="cat-inner-main-two">
+						<h3 class="text-center">Details</h3>
+						<h4 class="mb-1">Sheffield</h4>
+						<h4 class="text-muted light-weight-text">Blue/Grey</h4>
+						<h4 class="mt-3">Prescription</h4>
+						<h4 class="mb-1 mt-2 cart-lense-text">Lenses</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard eyeglass lenses</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 23.90</h4>
+						</div>
+						<h4 class="mb-1 mt-3 cart-coating-text">Coating</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard coating</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 58.90</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="inner-col-cart">
+					<i class="ri-delete-bin-5-fill delete-icon"></i>
+					<div class="cat-inner-main">
+						<div class="cat-inner-main-sub mr-4">
+							<img class="cart-product-image" src="./images/01_489_3 1.png" alt="cart-product-image">
+						</div>
+						<div class="cat-inner-main-sub">
+							<h4 class="cart-product-name">Annabelle</h4>
+							<h5 class="mb-0">Color : Blue/Gray</h5>
+							<h5 class="mb-2">RX:Progressive</h5>
+							<div class="cart-price">
+								<h4 class="mb-0 mr-3 cart-real-price yamama-secondary-color ">QR 23.90</h4>
+								<h5 class="mb-0 cart-discout-price ">QR 23.90</h5>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="cat-inner-main-two">
+						<h3 class="text-center">Details</h3>
+						<h4 class="mb-1">Sheffield</h4>
+						<h4 class="text-muted light-weight-text">Blue/Grey</h4>
+						<h4 class="mt-3">Prescription</h4>
+						<h4 class="mb-1 mt-2 cart-lense-text">Lenses</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard eyeglass lenses</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 23.90</h4>
+						</div>
+						<h4 class="mb-1 mt-3 cart-coating-text">Coating</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard coating</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 58.90</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="inner-col-cart">
+					<i class="ri-delete-bin-5-fill delete-icon"></i>
+					<div class="cat-inner-main">
+						<div class="cat-inner-main-sub mr-4">
+							<img class="cart-product-image" src="./images/01_489_3 1.png" alt="cart-product-image">
+						</div>
+						<div class="cat-inner-main-sub">
+							<h4 class="cart-product-name">Annabelle</h4>
+							<h5 class="mb-0">Color : Blue/Gray</h5>
+							<h5 class="mb-2">RX:Progressive</h5>
+							<div class="cart-price">
+								<h4 class="mb-0 mr-3 cart-real-price yamama-secondary-color ">QR 23.90</h4>
+								<h5 class="mb-0 cart-discout-price ">QR 23.90</h5>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="cat-inner-main-two">
+						<h3 class="text-center">Details</h3>
+						<h4 class="mb-1">Sheffield</h4>
+						<h4 class="text-muted light-weight-text">Blue/Grey</h4>
+						<h4 class="mt-3">Prescription</h4>
+						<h4 class="mb-1 mt-2 cart-lense-text">Lenses</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard eyeglass lenses</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 23.90</h4>
+						</div>
+						<h4 class="mb-1 mt-3 cart-coating-text">Coating</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard coating</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 58.90</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="inner-col-cart">
+					<i class="ri-delete-bin-5-fill delete-icon"></i>
+					<div class="cat-inner-main">
+						<div class="cat-inner-main-sub mr-4">
+							<img class="cart-product-image" src="./images/01_489_3 1.png" alt="cart-product-image">
+						</div>
+						<div class="cat-inner-main-sub">
+							<h4 class="cart-product-name">Annabelle</h4>
+							<h5 class="mb-0">Color : Blue/Gray</h5>
+							<h5 class="mb-2">RX:Progressive</h5>
+							<div class="cart-price">
+								<h4 class="mb-0 mr-3 cart-real-price yamama-secondary-color ">QR 23.90</h4>
+								<h5 class="mb-0 cart-discout-price ">QR 23.90</h5>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="cat-inner-main-two">
+						<h3 class="text-center">Details</h3>
+						<h4 class="mb-1">Sheffield</h4>
+						<h4 class="text-muted light-weight-text">Blue/Grey</h4>
+						<h4 class="mt-3">Prescription</h4>
+						<h4 class="mb-1 mt-2 cart-lense-text">Lenses</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard eyeglass lenses</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 23.90</h4>
+						</div>
+						<h4 class="mb-1 mt-3 cart-coating-text">Coating</h4>
+						<div class="table-cart mt-2">
+							<h4 class="mb-0 text-muted light-weight-text">Standard coating</h4>
+							<h4 class="mb-0 text-muted light-weight-text">QR 58.90</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- cart end   -->
+	<!-- footer  -->
+	<footer class="text-lg-start mt-3">
+    <div class="container-main  footer-inner-div text-md-start mt-5 mb-4">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 logo-div">
+          <a class="logo-footer" href="./index.html"><img src="./images/yamama-logo.png" alt="logo"></a>
+          <p class="logo-div-p" style="font-size: 14px;">We have over 5000 styles of eyewear, From big brands like RayBan and Oakley to the best in house brands.</p>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-facebook-box-fill"></i>
+          <i class="ri-whatsapp-fill"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6  mx-auto mb-4 information-div">
+          <h3 class="fw-bold">Information</h3>
+          <p><a href="#!" class="text-reset">About us</a></p>
+          <p><a href="#!" class="text-reset">Services</a></p>
+          <p><a href="#!" class="text-reset">Terms and Conditions</a></p>
+          <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 mx-auto mb-4 services-div">
+          <h3 class="fw-bold">Services</h3>
+          <p><a href="#!" class="text-reset">Store Location</a></p>
+          <p><a href="#!" class="text-reset">Frame Size</a></p>
+          <p><a href="#!" class="text-reset">Buying Guide</a></p>
+          <p><a href="#!" class="text-reset">About Us</a></p>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-md-6 mx-auto mb-md-0 mb-4 icon-contact">
+          <h3 class="fw-bold">Contact us</h3>
+          <p><i class="ri-mail-open-fill"></i> <a href="mailto:info@yamama.com">info@yamama.com</a></p>
+          <p><i class="ri-global-fill"></i><a href="www.yamama.com">www.yamama.com</a></p>
+          <p><i class="ri-whatsapp-fill"></i><a href="whatsapp:contact=0557424174">+966 1234567899</a></p>
+          <p><i class="ri-phone-fill"></i><a href="tel:+966 0557427344">+966 1236547898</a></p>
+        </div>
+      </div>
+    </div> 
+    <div class="text-center footer-copy">
+      <p>© copyright 2022 Yamama | Designed by 
+        <a class="text-reset fw-bold" href="https://www.erebsindia.com/" target="_blank">ERE Business Solutions</a>
+      </p>
+    </div>
+  </footer>
+	<!-- footer end  -->	
+	<!-- slider brands script  -->
+	<script>
+		const imgs = document.querySelectorAll('.img-select a');
+			const imgBtns = [...imgs];
+			let imgId = 1;
+
+			imgBtns.forEach((imgItem) => {
+					imgItem.addEventListener('click', (event) => {
+							event.preventDefault();
+							imgId = imgItem.dataset.id;
+							slideImage();
+					});
+			});
+
+			function slideImage(){
+					const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+					document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+			}
+
+			window.addEventListener('resize', slideImage);
+	</script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		const buttons = document.querySelectorAll(".faq-toggle");
+		buttons.forEach((btn) => {
+			btn.addEventListener("click", () => {
+				btn.parentNode.classList.toggle("active");
+			});
+		});
+	</script>
+	<!-- sideber scripts  -->
+	<script>
+		function toggleCartt(){
+  		document.querySelector('.sidebar').classList.toggle('open-cart');
+		}
+	</script>
+	<!-- sideber scripts links  -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
